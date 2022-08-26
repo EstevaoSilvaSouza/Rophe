@@ -1,5 +1,6 @@
 //Arquivo que vai ter as configurações do APP express o Cord do projeto!!
 import Express from "express";
+import UserLogginPostRequest from "./Midlwares/User.Log.Post";
 
 //Imports dos components...
 import { userRouter } from "./Routers/User.router";
@@ -18,6 +19,7 @@ export default class App {
   SetMiddleware() {
     this.App.use(Express.json());
     this.App.use(Express.urlencoded({ extended: true }));
+    //this.App.use(UserLogginPostRequest);
   }
 
   SetRouters() {
