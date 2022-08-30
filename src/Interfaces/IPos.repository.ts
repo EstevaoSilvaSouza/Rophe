@@ -7,3 +7,8 @@ export default interface IPos {
   status: string;
   id_modelo?: number;
 }
+
+export interface IPosRespository {
+  PosFindUserLoggged(id: number): Promise<IPos[] | any[]>;
+  PosEditStatus(id: number): Promise<IPos | null>;
+}

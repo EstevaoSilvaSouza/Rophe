@@ -1,8 +1,8 @@
 import { Request, Response } from "express";
 import { userService } from "../../Service/User.service";
-import { IUserResponse } from "../../Interfaces/IUserRepository";
+
 import jwt from "jsonwebtoken";
-const secret = `çç3lksklaj5431ds@!#!asdE09W#$%&¨#$@#`;
+const secret = `çç3lkskl$#@fds╚§'[´]15~<<<>;ü╚1↨()))((())üÐAaj542(*&¨$%@#%¨1akjaskljdsaçççççÇ31ds@!#!asdE09W#$%&¨#$@#`;
 
 class UserController {
   getAllUsers(req: Request, res: Response) {
@@ -16,13 +16,20 @@ class UserController {
             data: data,
           });
         }
-
-        res.json({
-          Message: `Sucesso`,
-          Usuario: req.user.usuario,
-          StatusCode: res.statusCode,
-          data: data,
-        });
+        setTimeout(() => {
+          res.json({
+            Message: `Sucesso`,
+            UserLogado: {
+              nome: req.user.nome,
+              sobrenome: req.user.sobrenome,
+              usuario: req.user.usuario,
+              email: req.user.email,
+              cargo: req.user.cargo,
+            },
+            StatusCode: res.statusCode,
+            data: data,
+          });
+        }, 2000);
       })
       .catch(() => {
         res
@@ -77,19 +84,23 @@ class UserController {
           });
         } else {
           const userLoggedIn = {
+            id: user.id,
             nome: user.nome,
             email: user.email,
             sobrenome: user.sobrenome,
             status: user.status,
             usuario: user.usuario,
+            cargo: user.cargo,
           };
-          const token = jwt.sign(userLoggedIn, secret, { expiresIn: "1h" });
-          res.status(200).json({
-            Message: `Logado com sucesso`,
-            Horario: new Date().toLocaleTimeString("pt-br"),
-            statusCode: res.statusCode,
-            token: token,
-          });
+          const token = jwt.sign(userLoggedIn, secret, { expiresIn: "2h" });
+          setTimeout(() => {
+            res.status(200).json({
+              Message: `Logado com sucesso`,
+              Horario: new Date().toLocaleTimeString("pt-br"),
+              statusCode: res.statusCode,
+              token: token,
+            });
+          }, 2000);
         }
       })
       .catch(() => {

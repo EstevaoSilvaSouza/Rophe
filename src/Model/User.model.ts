@@ -8,11 +8,11 @@ import { IUser } from "../Interfaces/IUserRepository";
 
 //Conexão do banco de dados!!
 import { dabatase } from "../Domain/UserDomain";
-import { Tracing } from "trace_events";
 
 //Melhorar seguir as orientação do
 //https://medium.com/@williamphilippe/como-usar-o-sequelize-com-postgresql-em-typescript-6cec17a101f8
 class User extends Model<IUser> {
+  declare readonly id: number;
   declare nome: string;
   declare sobrenome: string;
   declare usuario: string;
@@ -26,6 +26,11 @@ class User extends Model<IUser> {
 
 User.init(
   {
+    id: {
+      type: DataTypes.NUMBER,
+      allowNull: false,
+      primaryKey: true,
+    },
     nome: {
       type: DataTypes.STRING,
       allowNull: false,

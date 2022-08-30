@@ -136,4 +136,214 @@ Data:Fri Aug 26 2022 11:44:00 GMT-0300 (Horário Padrão de Brasília) IP:::ffff
   Error:Tentativa de acesso com Token Invalido/Expirado TokenExpiredError: jwt expired
     Data:Fri Aug 26 2022 11:47:30 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
   Error:Tentativa de acesso com Token Invalido/Expirado TokenExpiredError: jwt expired
+    Data:Sat Aug 27 2022 12:06:24 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado TokenExpiredError: jwt expired
+    Data:Sat Aug 27 2022 13:29:33 GMT-0300 (Horário Padrão de Brasília) IP:::1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado TokenExpiredError: jwt expired
+    Data:Sat Aug 27 2022 22:52:01 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 22:52:13 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 22:52:31 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 22:52:34 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 22:53:20 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 22:53:25 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 22:53:56 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 22:54:19 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 22:54:54 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 23:21:48 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 23:22:11 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 23:22:15 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 23:22:46 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 23:23:43 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 23:25:10 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 23:26:11 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 23:26:50 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 23:28:42 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 23:29:19 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 23:29:22 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 23:29:28 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 23:29:45 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 23:30:03 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 23:30:53 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 23:31:24 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 23:34:38 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 23:35:24 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 23:41:05 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 23:41:34 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 23:41:55 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 23:42:50 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sat Aug 27 2022 23:43:41 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: invalid token
+    Data:Sun Aug 28 2022 09:11:37 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:11:58 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:12:58 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:13:11 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:13:42 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:14:01 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:14:52 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:14:58 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:15:06 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:15:31 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:19:58 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:20:20 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:21:25 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:21:29 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:21:44 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:21:55 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:22:20 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:22:45 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:23:10 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:23:56 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:24:17 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:24:56 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:25:27 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:25:29 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:25:30 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:25:30 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:25:49 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:25:53 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:25:57 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:26:16 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:29:11 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:29:42 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:30:11 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:33:25 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:33:38 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 09:40:59 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: invalid token
+    Data:Sun Aug 28 2022 09:45:36 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado TokenExpiredError: jwt expired
+    Data:Sun Aug 28 2022 09:45:47 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado TokenExpiredError: jwt expired
+    Data:Sun Aug 28 2022 09:45:53 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado TokenExpiredError: jwt expired
+    Data:Sun Aug 28 2022 10:53:07 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado TokenExpiredError: jwt expired
+    Data:Sun Aug 28 2022 10:53:10 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado TokenExpiredError: jwt expired
+    Data:Sun Aug 28 2022 10:53:11 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado TokenExpiredError: jwt expired
+    Data:Sun Aug 28 2022 10:53:11 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado TokenExpiredError: jwt expired
+    Data:Sun Aug 28 2022 10:53:13 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado TokenExpiredError: jwt expired
+    Data:Sun Aug 28 2022 11:03:03 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado TokenExpiredError: jwt expired
+    Data:Sun Aug 28 2022 11:06:07 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Sun Aug 28 2022 11:06:17 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:10.10.10.74 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: jwt malformed
+    Data:Mon Aug 29 2022 21:25:38 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado TokenExpiredError: jwt expired
+    Data:Mon Aug 29 2022 21:25:46 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado TokenExpiredError: jwt expired
+    Data:Mon Aug 29 2022 21:25:47 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado TokenExpiredError: jwt expired
+    Data:Mon Aug 29 2022 21:25:49 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado TokenExpiredError: jwt expired
+    Data:Mon Aug 29 2022 21:26:28 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: invalid signature
+    Data:Mon Aug 29 2022 21:27:01 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: invalid signature
+    Data:Mon Aug 29 2022 21:27:54 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: invalid signature
+    Data:Mon Aug 29 2022 21:28:16 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: invalid signature
+    Data:Mon Aug 29 2022 21:28:42 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: invalid signature
+    Data:Mon Aug 29 2022 21:28:57 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: invalid signature
+    Data:Mon Aug 29 2022 21:29:55 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado TokenExpiredError: jwt expired
+    Data:Mon Aug 29 2022 21:29:58 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: invalid signature
+    Data:Mon Aug 29 2022 21:29:59 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: invalid signature
+    Data:Mon Aug 29 2022 21:30:00 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: invalid signature
+    Data:Mon Aug 29 2022 21:30:00 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: invalid signature
+    Data:Mon Aug 29 2022 21:30:01 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: invalid signature
+    Data:Mon Aug 29 2022 21:30:01 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: invalid signature
+    Data:Mon Aug 29 2022 21:30:01 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: invalid signature
+    Data:Mon Aug 29 2022 21:30:01 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: invalid signature
+    Data:Mon Aug 29 2022 21:30:02 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: invalid signature
+    Data:Mon Aug 29 2022 21:30:02 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: invalid signature
+    Data:Mon Aug 29 2022 21:30:03 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: invalid signature
+    Data:Mon Aug 29 2022 21:30:03 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: invalid signature
+    Data:Mon Aug 29 2022 21:30:04 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: invalid signature
     

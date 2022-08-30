@@ -7,7 +7,8 @@ import {
 
 import User from "../Model/User.model";
 import Regiao from "../Model/Regiao.model";
-
+import Pos from "../Model/Pos.model";
+import { Model } from "sequelize/types";
 class UserRepository implements IUserRepository {
   async FindUserLogin(usuario: string): Promise<IUser | null> {
     return await User.findOne({
@@ -15,11 +16,17 @@ class UserRepository implements IUserRepository {
       attributes: { exclude: ["createdAt", "updatedAt"] },
     });
   }
-  async getAllUsers(): Promise<IUserResponse[]> {
+  async getAllUsers(): Promise<IUserResponse[] | any[]> {
     const id: number = 1;
-    return User.findAll({
-      attributes: { exclude: ["senha"] },
-      include: { model: Regiao },
+    return Pos.findAll({
+      include: [
+        {
+          model: User,
+          where: { id: 1 },
+          attributes: { exclude: ["senha"] },
+        },
+      ],
+
       order: [["id", "ASC"]],
       // where: { $id_regiao$: id },
     });

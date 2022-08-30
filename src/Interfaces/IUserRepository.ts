@@ -1,4 +1,5 @@
 export interface IUser {
+  id: number;
   nome: string;
   sobrenome: string;
   usuario: string;
@@ -18,7 +19,7 @@ export interface IUserResponse {
 }
 
 export interface IUserRepository {
-  getAllUsers(): Promise<IUserResponse[]>;
+  getAllUsers(): Promise<IUserResponse[] | any[]>;
   setNewUser(payload: IUser): Promise<IUserResponse>;
   UpdateUser(id: number, data: IUser): Promise<IUser>;
   FindUser(id: number): Promise<IUser | null>;
