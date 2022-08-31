@@ -6,30 +6,30 @@ const secret = `çç3lkskl$#@fds╚§'[´]15~<<<>;ü╚1↨()))((())üÐAaj542(*
 
 class UserController {
   getAllUsers(req: Request, res: Response) {
+    const idUsuario = req.user.id;
     userService
-      .listarUsuarios()
+      .listarUsuariosLogadoPos(idUsuario)
       .then((data) => {
-        if (data?.length == 0) {
+        if (data == null) {
           return res.json({
             Message: `Sem dados!`,
             StatusCode: res.statusCode,
             data: data,
           });
         }
-        setTimeout(() => {
-          res.json({
-            Message: `Sucesso`,
-            UserLogado: {
-              nome: req.user.nome,
-              sobrenome: req.user.sobrenome,
-              usuario: req.user.usuario,
-              email: req.user.email,
-              cargo: req.user.cargo,
-            },
-            StatusCode: res.statusCode,
-            data: data,
-          });
-        }, 2000);
+        //setTimeout(() => {
+        res.json({
+          Message: `Sucesso`,
+          UserLogado: {
+            nome: data?.nome,
+            sobrenome: data?.sobrenome,
+            usuario: data?.usuario,
+            email: data?.email,
+            cargo: data?.cargo,
+          },
+          StatusCode: res.statusCode,
+        });
+        //  }, 2000);
       })
       .catch(() => {
         res
@@ -93,14 +93,14 @@ class UserController {
             cargo: user.cargo,
           };
           const token = jwt.sign(userLoggedIn, secret, { expiresIn: "2h" });
-          setTimeout(() => {
-            res.status(200).json({
-              Message: `Logado com sucesso`,
-              Horario: new Date().toLocaleTimeString("pt-br"),
-              statusCode: res.statusCode,
-              token: token,
-            });
-          }, 2000);
+          //setTimeout(() => {
+          res.status(200).json({
+            Message: `Logado com sucesso`,
+            Horario: new Date().toLocaleTimeString("pt-br"),
+            statusCode: res.statusCode,
+            token: token,
+          });
+          // }, 2000);
         }
       })
       .catch(() => {

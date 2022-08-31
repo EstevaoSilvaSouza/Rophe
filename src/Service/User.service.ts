@@ -1,8 +1,8 @@
 import { userRepository } from "../Repository/UserRepository";
 
 class UserService {
-  listarUsuarios() {
-    return userRepository.getAllUsers().then((data) => {
+  listarUsuariosLogadoPos(id: number) {
+    return userRepository.getAllUsers(id).then((data) => {
       //console.log(data);
       return data;
     });

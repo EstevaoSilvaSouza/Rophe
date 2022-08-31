@@ -12,7 +12,7 @@ import { dabatase } from "../Domain/UserDomain";
 //Melhorar seguir as orientação do
 //https://medium.com/@williamphilippe/como-usar-o-sequelize-com-postgresql-em-typescript-6cec17a101f8
 class User extends Model<IUser> {
-  declare readonly id: number;
+  declare id: number;
   declare nome: string;
   declare sobrenome: string;
   declare usuario: string;

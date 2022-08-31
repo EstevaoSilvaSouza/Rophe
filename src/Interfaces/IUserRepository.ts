@@ -19,7 +19,7 @@ export interface IUserResponse {
 }
 
 export interface IUserRepository {
-  getAllUsers(): Promise<IUserResponse[] | any[]>;
+  getAllUsers(id: number): Promise<null | IUser>;
   setNewUser(payload: IUser): Promise<IUserResponse>;
   UpdateUser(id: number, data: IUser): Promise<IUser>;
   FindUser(id: number): Promise<IUser | null>;

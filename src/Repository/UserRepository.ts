@@ -16,19 +16,9 @@ class UserRepository implements IUserRepository {
       attributes: { exclude: ["createdAt", "updatedAt"] },
     });
   }
-  async getAllUsers(): Promise<IUserResponse[] | any[]> {
-    const id: number = 1;
-    return Pos.findAll({
-      include: [
-        {
-          model: User,
-          where: { id: 1 },
-          attributes: { exclude: ["senha"] },
-        },
-      ],
-
-      order: [["id", "ASC"]],
-      // where: { $id_regiao$: id },
+  async getAllUsers(id: number): Promise<null | IUser> {
+    return await User.findByPk(id, {
+      attributes: { exclude: ["senha"] },
     });
   }
   async setNewUser(payload: IUser): Promise<IUserResponse> {

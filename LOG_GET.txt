@@ -346,4 +346,8 @@ Data:Fri Aug 26 2022 11:44:00 GMT-0300 (Horário Padrão de Brasília) IP:::ffff
   Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: invalid signature
     Data:Mon Aug 29 2022 21:30:04 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
   Error:Tentativa de acesso com Token Invalido/Expirado JsonWebTokenError: invalid signature
+    Data:Tue Aug 30 2022 21:10:17 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado TokenExpiredError: jwt expired
+    Data:Tue Aug 30 2022 21:10:23 GMT-0300 (Horário Padrão de Brasília) IP:::ffff:127.0.0.1 PATH:/ METHOD:GET
+  Error:Tentativa de acesso com Token Invalido/Expirado TokenExpiredError: jwt expired
     
