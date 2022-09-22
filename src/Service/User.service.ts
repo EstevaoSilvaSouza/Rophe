@@ -1,11 +1,13 @@
+import IIMage from "../Interfaces/IIMage.interface";
 import { userRepository } from "../Repository/UserRepository";
 
 class UserService {
-  listarUsuariosLogadoPos(id: number) {
-    return userRepository.getAllUsers(id).then((data) => {
-      //console.log(data);
-      return data;
-    });
+  PegarUmUsuario(id: number) {
+    return userRepository.getOneUser(id).then((user) => user);
+  }
+
+  listarUsuariosLogadoPos() {
+    return userRepository.getAllUsers().then((data) => data);
   }
 
   CriarUsuario(payload: any) {
@@ -17,6 +19,18 @@ class UserService {
 
   VerificarUserCadastrado(usuario: string) {
     return userRepository.FindUserLogin(usuario).then((data) => data);
+  }
+
+  AdicionarImagemUser(image: IIMage, id: number) {
+    return userRepository.createImageUser(image, id).then((data) => data);
+  }
+
+  QtddeRegistros() {
+    return userRepository.getAllStates().then((data) => data);
+  }
+
+  listarTodosUf() {
+    return userRepository.getAllUf().then((data) => data);
   }
 }
 

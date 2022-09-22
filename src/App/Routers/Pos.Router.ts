@@ -8,10 +8,20 @@ class PosRouter {
   constructor() {
     this.Router = Express.Router();
     this.getAllPosUserLogged();
+    this.editStatusPos();
+    this.getAllPosUserLoggedUso();
   }
 
   getAllPosUserLogged() {
     this.Router.get("/", VerifyUserLoggedIn, posController.findPosUserLogado);
+  }
+
+  editStatusPos() {
+    this.Router.post("/baixa", VerifyUserLoggedIn, posController.editStatusPos);
+  }
+
+  getAllPosUserLoggedUso() {
+    this.Router.get("/uso", VerifyUserLoggedIn, posController.getAllPosUsoUser);
   }
 }
 

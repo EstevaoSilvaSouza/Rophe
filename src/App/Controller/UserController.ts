@@ -1,14 +1,26 @@
 import { Request, Response } from "express";
 import { userService } from "../../Service/User.service";
+const imgbbUploader = require("imgbb-uploader");
 
 import jwt from "jsonwebtoken";
 const secret = `çç3lkskl$#@fds╚§'[´]15~<<<>;ü╚1↨()))((())üÐAaj542(*&¨$%@#%¨1akjaskljdsaçççççÇ31ds@!#!asdE09W#$%&¨#$@#`;
 
 class UserController {
+  getOneUser(req: Request, res: Response) {
+    const { id } = req.user;
+
+    userService.PegarUmUsuario(id).then((user) => {
+      res.status(200).json({
+        Message: "Sucesso",
+        UserLogado: user,
+        StatusCode: res.statusCode,
+      });
+    });
+  }
+
   getAllUsers(req: Request, res: Response) {
-    const idUsuario = req.user.id;
     userService
-      .listarUsuariosLogadoPos(idUsuario)
+      .listarUsuariosLogadoPos()
       .then((data) => {
         if (data == null) {
           return res.json({
@@ -17,19 +29,12 @@ class UserController {
             data: data,
           });
         }
-        //setTimeout(() => {
+
         res.json({
           Message: `Sucesso`,
-          UserLogado: {
-            nome: data?.nome,
-            sobrenome: data?.sobrenome,
-            usuario: data?.usuario,
-            email: data?.email,
-            cargo: data?.cargo,
-          },
+          ListaUser: data,
           StatusCode: res.statusCode,
         });
-        //  }, 2000);
       })
       .catch(() => {
         res
@@ -40,8 +45,9 @@ class UserController {
 
   CreateNewUser(req: Request, res: Response) {
     const data = req.body;
+    console.log(data);
     userService
-      .CriarUsuario(data)
+      .CriarUsuario(data.pay)
       .then((result) => {
         if (result.name === "SequelizeUniqueConstraintError") {
           return res.status(400).json({
@@ -61,6 +67,7 @@ class UserController {
 
   LoginUser(req: Request, res: Response) {
     const { usuario, senha } = req.body;
+    console.log(req.body);
     const message = `Usuario/Senha Invalido`;
     if (!usuario || !senha) {
       return res.status(403).json({ Message: `Falha ao autentica!` });
@@ -92,7 +99,7 @@ class UserController {
             usuario: user.usuario,
             cargo: user.cargo,
           };
-          const token = jwt.sign(userLoggedIn, secret, { expiresIn: "2h" });
+          const token = jwt.sign(userLoggedIn, secret, { expiresIn: "1h" });
           //setTimeout(() => {
           res.status(200).json({
             Message: `Logado com sucesso`,
@@ -108,6 +115,51 @@ class UserController {
           .status(500)
           .json({ Message: `Falha no servidor`, StatusCode: res.statusCode });
       });
+  }
+
+  AdicionarImagemUser(req: Request, res: Response) {
+    const uri = req.body;
+    const idUser = req.user.id;
+
+    const token = "d1f915e7d3881e067c17381cf1cc3a5d";
+
+    const options = {
+      apiKey: token,
+      base64string: uri.uri,
+    };
+
+    if (uri) {
+      return new imgbbUploader(options)
+        .then((response: any) => {
+          console.log(response);
+          uri.uri = response.url;
+          userService.AdicionarImagemUser(uri, idUser);
+        })
+        .catch((error: any) => {
+          console.log(error);
+        });
+    }
+  }
+
+  QtdeRegistros(req: Request, res: Response) {
+    userService.QtddeRegistros().then((response) => {
+      res.status(200).json({
+        Message: `Pesquisa`,
+        user: response.user,
+        pos: response.pos,
+        posUso: response.posUso,
+        posEstoque: response.posEstoque,
+      });
+    });
+  }
+
+  listarTodosUf(req: Request, res: Response) {
+    userService.listarTodosUf().then((response) => {
+      res.status(200).json({
+        Message: `Pesquisa`,
+        res: response,
+      });
+    });
   }
 }
 

@@ -1,7 +1,8 @@
-import Sequelize, { Model, DataTypes } from "sequelize";
+import { Model, DataTypes } from "sequelize";
 
 //Models
 import Regiao from "./Regiao.model";
+import Image from "./Image.model";
 
 //Interfaces
 import { IUser } from "../Interfaces/IUserRepository";
@@ -26,11 +27,6 @@ class User extends Model<IUser> {
 
 User.init(
   {
-    id: {
-      type: DataTypes.NUMBER,
-      allowNull: false,
-      primaryKey: true,
-    },
     nome: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -73,6 +69,15 @@ User.belongsTo(Regiao, {
 
 Regiao.hasMany(User, {
   foreignKey: "id_regiao",
+});
+
+User.belongsTo(Image, {
+  constraints: true,
+  foreignKey: "id_image",
+});
+
+Image.hasOne(User, {
+  foreignKey: "id_image",
 });
 
 export default User;

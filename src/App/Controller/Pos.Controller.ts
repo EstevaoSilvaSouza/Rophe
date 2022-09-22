@@ -28,6 +28,35 @@ class PosController {
         })
       );
   }
+
+  editStatusPos(req: Request, res: Response) {
+    const { id, type } = req.body;
+
+    posService.EditarStatusPos(id, type).then((data) => {
+      if (data.length <= 0) {
+        return res.status(404).json({ Message: "Falha ao dar baixa" });
+      }
+
+      res
+        .status(200)
+        .json({ Message: "Pos dado baixa com sucesso", StatusBaixa: data });
+    });
+  }
+
+  getAllPosUsoUser(req: Request, res: Response) {
+    const idUser = req.user.id;
+
+    posService.listarPosEmUsoUser(idUser).then((data) => {
+      if (data.length <= 0) {
+        return res.status(404).json({ Message: "Falha ao dar baixa" });
+      }
+
+      res.status(200).json({
+        Message: `Sucesso`,
+        data: data,
+      });
+    });
+  }
 }
 
 export const posController = new PosController();

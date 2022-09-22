@@ -11,10 +11,18 @@ class UserRouter {
     this.GetRouterAll();
     this.PostRouterNewUser();
     this.LoginUser();
+    this.AddImageUserProfile();
+    this.GetAllCount();
+    this.GetAllUf();
+    this.GetOneUser();
   }
 
   GetRouterAll() {
     this.Router.get("/", VerifyUserLoggedIn, userController.getAllUsers);
+  }
+
+  GetOneUser() {
+    this.Router.get("/getUser", VerifyUserLoggedIn, userController.getOneUser);
   }
 
   PostRouterNewUser() {
@@ -23,6 +31,30 @@ class UserRouter {
 
   LoginUser() {
     this.Router.post("/login", userController.LoginUser);
+  }
+
+  AddImageUserProfile() {
+    this.Router.post(
+      "/profile/image",
+      VerifyUserLoggedIn,
+      userController.AdicionarImagemUser
+    );
+  }
+
+  GetAllCount() {
+    this.Router.get(
+      "/allcount",
+      VerifyUserLoggedIn,
+      userController.QtdeRegistros
+    );
+  }
+
+  GetAllUf() {
+    this.Router.get(
+      "/listaruf",
+      VerifyUserLoggedIn,
+      userController.listarTodosUf
+    );
   }
 }
 
